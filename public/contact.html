@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - POGOdynka</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+
+      h1 {
+        margin-top: 0;
+        text-align: center;
+        color: #555;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+        color: #555;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        padding: 10px;
+        margin-bottom: 20px;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        resize: vertical;
+      }
+
+      input[type="submit"] {
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #4caf50;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #3e8e41;
+      }
+
+      .error {
+        color: #f00;
+        margin-bottom: 10px;
+      }
+
+      .success {
+        color: #008000;
+        margin-bottom: 10px;
+      }
+      nav {
+        margin-bottom: 20px;
+      }
+
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      nav li {
+        margin: 0 10px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #666;
+        font-weight: bold;
+        font-size: 16px;
+        transition: color 0.3s ease;
+      }
+
+      nav a:hover {
+        color: #000;
+      }
+
+  </style>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">POGOdynka</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>Do you have any questions or comments? Fill out the form below to get in touch with us.</p>
+
+      <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 POGOdynka. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
